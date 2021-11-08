@@ -1,0 +1,51 @@
+@import "../shared/colors.scss";
+.wrapper {
+    width: calc(100% - 220px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .vector {
+        width: 400px;
+        img {
+            width: 100%;
+        }
+    }
+    .form {
+        width: 200px;
+        form {
+            display: flex;
+            flex-direction: column;
+            label {
+                font-weight: 500;
+                color: $TEXT;
+                margin-bottom: 5px;
+            }
+            input {
+                height: 40px;
+                border: 1px solid $PRIMARY;
+                border-radius: 5px;
+                padding: 0 10px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.answerKeyContainer {
+    padding: 0 20px 20px 20px;
+    width: 600px;
+    height: 300px;
+    overflow-y: auto;
+    div {
+        margin-bottom: 15px;
+        p {
+            color: $TEXT;
+            font-size: 14px;
+            margin-bottom: 5px;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}

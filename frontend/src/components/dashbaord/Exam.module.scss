@@ -1,0 +1,97 @@
+@import "../shared/colors.scss";
+.wrapper {
+    margin-left: 20px;
+    width: calc(100% - 220px);
+    .globalTimer {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        font-weight: 500;
+        color: $ORANGE;
+        margin-bottom: 110px;
+        svg {
+            width: 18px;
+            margin-right: 6px;
+        }
+    }
+    .examContainer {
+        display: flex;
+        width: 100%;
+        .exam {
+            margin-right: 20px;
+            .questionContainer {
+                width: 765px;
+                margin-bottom: 20px;
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $TEXT;
+                }
+            }
+            .answerInput {
+                width: 765px;
+                margin-bottom: 20px;
+                form {
+                    width: 100%;
+                    textarea {
+                        width: 100%;
+                        height: 150px;
+                        resize: none;
+                        border: 1px solid $PRIMARY;
+                        border-radius: 5px;
+                        color: $TEXT;
+                        padding: 5px;
+                    }
+                }
+            }
+            .controllers {
+                display: flex;
+                align-items: center;
+                .navigators {
+                    button {
+                        &:first-child {
+                            margin-right: 20px;
+                        }
+                    }
+                }
+                button {
+                    margin-left: auto;
+                }
+            }
+        }
+        .monitoring {
+            margin-left: auto;
+            margin-right: 20px;
+            .camera {
+                width: 250px;
+                border: 10px solid $PRIMARY;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $PRIMARY;
+                border-radius: 5px;
+                video {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.submitModal {
+    padding: 0 20px 20px 20px;
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        color: $TEXT;
+        margin-bottom: 10px;
+    }
+    .controllers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            margin-right: 20px;
+        }
+    }
+}
