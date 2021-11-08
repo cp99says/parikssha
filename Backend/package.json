@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "hackSummit_ZeroDSA",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,18 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.1004.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.0",
+    "nanoid": "^3.1.29"
+  }
 }
