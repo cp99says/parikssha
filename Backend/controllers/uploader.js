@@ -7,11 +7,11 @@ var bodyParser = require("body-parser");
 const multer = require("multer");
 const moment = require("moment");
 const multerS3 = require("multer-s3");
-// require("dotenv/config");
+require("dotenv/config");
 
 aws.config.update({
-  secretAccessKey: "KfdbC4/X1MgT2MWuMjyqFzVDuczcyOzp2h9hhMXm",
-  accessKeyId: "AKIAXRCVM64D2RC7K6SQ",
+  secretAccessKey: process.env.secretAccessKey,
+  accessKeyId: process.env.accessKeyId,
   region: "ap-south-1",
 });
 var name;
