@@ -10,8 +10,28 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "@react-native-async-storage/async-storage": "^1.15.9",
+    "@react-navigation/bottom-tabs": "^6.0.7",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.2",
+    "axios": "^0.22.0",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
     "react": "17.0.2",
-    "react-native": "0.66.2"
+    "react-native": "0.66.2",
+    "react-native-animatable": "^1.3.3",
+    "react-native-document-picker": "^6.1.1",
+    "react-native-extra-dimensions-android": "^1.2.5",
+    "react-native-image-crop-picker": "^0.36.4",
+    "react-native-modal": "^13.0.0",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-table-component": "^1.2.1",
+    "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
