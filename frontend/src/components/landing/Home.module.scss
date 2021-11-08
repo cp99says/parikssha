@@ -1,0 +1,78 @@
+@import "../shared/colors.scss";
+.wrapper {
+    background-color: $PEACH;
+    position: relative;
+    height: 100vh; //remove later
+    .heroText {
+        width: 1300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        p {
+            width: 448px;
+            font-size: 50px;
+            color: $TEXT;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        .controllers {
+            button {
+                &:first-child {
+                    margin-right: 20px;
+                }
+                &:last-child {
+                    background-color: transparent !important;
+                    border: 1px solid $GREEN;
+                    color: $GREEN;
+                }
+            }
+        }
+    }
+    .heroImageContainer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        width: 650px;
+        height: 600px;
+        border-bottom-left-radius: 150px;
+        background-color: rgba($color: $GREEN, $alpha: 0.56);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .controllers {
+            display: flex;
+            align-items: center;
+            height: 60px;
+            margin-right: auto;
+            margin-left: 60px;
+            .login {
+                font-size: 18px;
+                font-weight: 700;
+                color: $PRIMARY;
+                margin-right: 20px;
+                background-color: transparent;
+            }
+        }
+        img {
+            // width: 75%;
+            margin-top: auto;
+        }
+    }
+    .features {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1300px;
+        margin: 0 auto;
+        margin-top: 165px;
+        .feature {
+            z-index: 1;
+            width: 300px;
+            height: 300px;
+            background-color: $WHITE;
+            border-radius: 10px;
+            box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        }
+    }
+}
