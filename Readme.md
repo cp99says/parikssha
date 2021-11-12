@@ -4,7 +4,7 @@
    
    <img src="https://forthebadge.com/images/badges/built-with-love.svg"/><br><br>
    <img src="https://img.shields.io/badge/By-Team%20ZeroDSA-seagreen?style=for-the-badge" height="40"/><br>
-   <img src="https://img.shields.io/badge/Athena-Hackathon-red?style=for-the-badge" height="40"/>
+   <img src="https://img.shields.io/badge/Athenahack%202021-Winners🏆-yellow?style=for-the-badge" height="40"/>
     <br>   
   </p>
   <hr>
